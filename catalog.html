@@ -9,7 +9,7 @@
   <body>
     <header class="page-header">
       <a href="index.html" aria-current="page">
-        <img class="page-header-logo" src="#" alt="Логотип Седоны">
+        <img class="page-header-logo" src="images/logo-sedona.svg" width="140" height="70" alt="Логотип Седоны">
       </a>
       <nav class="navigation">
         <ul class="navigation-list">
@@ -97,10 +97,10 @@
             </fieldset>
             <fieldset class="filters-form-group">
               <legend class="filters-form-title">Стоимость, ₽:</legend>
-              <span class="visually-hidden">От</span>
-              <input type="text" placeholder="От" value="0">
-              <span class="visually-hidden">До</span>
-              <input type="text" placeholder="До" value="9000">
+              <label class="visually-hidden" for="min-value">От</label>
+              <input type="text" value="0" id="min-value">
+              <label class="visually-hidden" for="max-value">До</label>
+              <input type="text" value="9000" id="max-value">
             </fieldset>
 
             <button class="button filters-submit-button" type="submit">Применить</button>
@@ -134,11 +134,12 @@
             </a>
           </li>
         </ul>
-        
+
         <ul class="hotels-list">
           <li class="hotel-card">
             <a href="#">
-              <img class="hotel-card-image" src="#" alt="">
+              <img class="hotel-card-image" src="images/catalog/hotel-1.jpg" width="300" height="212"
+                alt="Горное ущелье">
             </a>
             <a href="#">
               <h3 class="hotel-card-title">Amara Resort & Spa</h3>
@@ -154,7 +155,8 @@
           </li>
           <li class="hotel-card">
             <a href="#">
-              <img class="hotel-card-image" src="#" alt="">
+              <img class="hotel-card-image" src="images/catalog/hotel-2.jpg" width="300" height="212"
+                alt="Горы и радуга">
             </a>
             <a href="#">
               <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
@@ -170,7 +172,8 @@
           </li>
           <li class="hotel-card">
             <a href="#">
-              <img class="hotel-card-image" src="#" alt="">
+              <img class="hotel-card-image" src="images/catalog/hotel-3.jpg" width="300" height="212"
+                alt="Гора в пустыне">
             </a>
             <a href="#">
               <h3 class="hotel-card-title">Desert Quail Inn</h3>
@@ -186,7 +189,8 @@
           </li>
           <li class="hotel-card">
             <a href="#">
-              <img class="hotel-card-image" src="#" alt="">
+              <img class="hotel-card-image" src="images/catalog/hotel-4.jpg" width="300" height="212"
+                alt="Гора и звездное небо">
             </a>
             <a href="#">
               <h3 class="hotel-card-title">GreenTree Inn</h3>
@@ -265,7 +269,8 @@
       <section class="footer-logo">
         <h2 class="visually-hidden">Логотип</h2>
         <a href="https://htmlacademy.ru/">
-          <img class="author-logo" src="#" alt="Логотип HTML-Академии">
+          <img class="author-logo" src="images/logo-htmlacademy.svg" width="115" height="33"
+            alt="Логотип HTML-Академии">
         </a>
       </section>
     </footer>
